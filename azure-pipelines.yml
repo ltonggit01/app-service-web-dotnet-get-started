@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: Default
+  name: ltpool
   demands: 
-  - Agent.Name -equals winagent1
+  - Agent.Name -equals wina01
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
